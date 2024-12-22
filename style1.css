@@ -1,0 +1,129 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+.navbar{
+    background-color: black;
+    display: flex;;    
+}
+.mainnav{
+    display: flex; 
+    position: relative;  
+   color: gray;
+   align-items: center;
+   gap: 34px;
+   font-size: 17px;
+   font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+   }
+   .games{
+   padding: 15px;
+   }
+   .careers{
+    padding: 15px;
+   }
+   .support{
+    padding: 15px;
+   }
+   .aboutus{
+    padding: 15px;
+   }
+ .games:hover{
+    color: white;
+ }
+ .careers:hover{
+   color: white;
+ }
+ .support:hover{
+    color: white;
+ }
+ .aboutus:hover{
+    color: white;
+ }
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  .dropdown-btn:hover {
+    background-color: #0056b3;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(171, 171, 171);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    border-radius: 4px; 
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+  }
+
+  .dropdown-content a:hover {
+    color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .image1{
+    width: 1550px;
+    height: 600px;
+  }
+  .image2{
+    height: 450px;
+  }
+  .brsphone{
+    display: flex;
+  }
+  .head1{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 100px;
+  }
+  .para1{
+    position: relative;
+    top: 200px;
+    left: -200px;
+    font-size: larger;
+  }
+  .btns{
+    position: relative;
+    left: 750px;
+  }
+  .bt1{
+    color: white;
+    background-color: black;
+    font-size: large;
+    border-radius: 14px;
+    padding: 0px;
+    
+  }
+  .btimg{
+    width: 250px;
+  }
+  .btimg2{
+    width: 220px;
+  }
+  .bt2{
+    color: white;
+    background-color: black;
+    font-size: large;
+    border-radius: 14px;
+    padding: 0px;
+  }
